@@ -38,7 +38,7 @@ jobs:
           key: backend-build
 
 workflows:
-  say-workflow:
+  sayworkflow:
     jobs:
       - build-frontend
       - build-backend
