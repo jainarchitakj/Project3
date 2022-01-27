@@ -12,6 +12,7 @@ jobs:
           command:  |
             cd frontend
             npm install
+            npm i caniuse-lite browserslist
             npm run build
             exit 1
       - save_cache:
